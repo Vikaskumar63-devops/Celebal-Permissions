@@ -1,0 +1,7 @@
+# User and Group Management Practice
+
+This project shows how to create new users and groups, set permissions, and use basic user management commands like `useradd`, `usermod`, and `userdel`.
+
+## What’s inside?
+
+- A script `user_management.sh` that demonstrates creating a user and group, changing user settings, and deleting a user.
