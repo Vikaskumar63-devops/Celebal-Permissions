@@ -1,0 +1,26 @@
+# Git Remote Setup and Push Practice
+
+This project shows how to set up a local Git repository, connect it to a remote repository, add files, commit changes, and push to the master branch.
+
+## What’s inside?
+
+- Instructions on setting up a local Git repo and linking it with a remote repo.
+- Sample file `push_example.txt` to practice adding and committing.
+- Steps to push changes to the remote repository.
+
+## How to use
+
+1. If starting fresh locally (no repo yet):
+   git init
+   git remote add origin https://github.com/Vikaskumar63-devops/Celebal-Permissions/new/main
+
+2. Add a new file or edit existing files.
+   For example:
+   echo "This is a practice file for pushing changes" > push_vikas_example.txt
+
+3. Add the file and commit the changes:
+   git add vikas_example.txt
+   git commit -m "Add push_vikas_example.txt file"
+
+4. Push to the master branch:
+   git push origin master
