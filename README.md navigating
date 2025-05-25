@@ -1,0 +1,12 @@
+# Terminal Navigation Practice
+
+This project helps you practice basic terminal commands like navigating directories, listing files, and moving files.
+
+## What’s inside?
+
+- A script `navigate_and_move.sh` that shows how to:
+  - Change directories
+  - List contents
+  - Move files between folders
+
+
