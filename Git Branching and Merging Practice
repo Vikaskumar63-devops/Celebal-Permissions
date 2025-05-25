@@ -1,0 +1,29 @@
+# Git Branching and Merging Practice
+
+This project helps practice creating branches, committing and pushing changes, and merging branches using pull requests.
+
+## What’s inside?
+
+- Instructions on creating a new branch.
+- How to commit and push changes to the new branch.
+- How to create a pull request to merge the new branch into master.
+- A sample file `branch_practice.txt` to make changes and test the process.
+
+## How to use
+
+1. Create a new branch and switch to it:
+   git checkout -b new-feature
+
+2. Edit or create files, for example:
+echo "This is a change in the new-feature branch." >> branch_practice.txt
+
+3. Add and commit the changes:
+   git add branch_practice.txt
+   git commit -m "Update branch_practice.txt in new-feature branch"
+
+4. Push the branch to the remote:
+   git push origin new-feature
+
+5. Pull latest changes to your local master:
+   git checkout master
+   git pull origin master
