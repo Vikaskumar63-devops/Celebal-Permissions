@@ -1,0 +1,8 @@
+# Basic Linux Commands Practice
+
+This repo contains examples and practice for basic Linux commands to work with files and directories. Commands like `ls`, `cd`, `mkdir`, `rm`, and `touch` are used.
+
+## What’s inside?
+
+- A script `basic_commands.sh` that shows how to create directories, create files, list files, move around directories, and delete files.
+
