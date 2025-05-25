@@ -1,1 +1,34 @@
 
+# Git Basics Practice
+
+This project helps practice basic Git commands and understand version control.
+
+## What’s inside?
+
+- A simple guide to Git installation and setup.
+- Examples of basic Git commands like `init`, `add`, `commit`, `push`, and `pull`.
+- A sample file to track changes.
+
+## How to use
+
+1. Install Git if you haven’t already. You can follow this:  
+   https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+2. Try running these commands to practice:
+
+Initialize a new Git repo:
+git init
+
+Add files to staging:
+git add filename
+
+Commit changes:
+git commit -m "Your message"
+
+Push changes to remote repo:
+git push origin main
+
+Pull latest changes:
+git pull
+
+3. Make changes to the sample file vikas63.txt and track your commits.
